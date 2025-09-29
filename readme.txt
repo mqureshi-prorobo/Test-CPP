@@ -1,8 +1,8 @@
-###CPP file 
+#CPP file run with compiler
 g++ test.cpp -o test.exe
 ./test.exe
 
-###GIT with VS
+#GIT with VS
 git config --global user.name "mqureshi-prorobo"
 git config --global user.email "mqureshi@cobionix.com"
 
@@ -13,7 +13,7 @@ git branch -M main
 git status
 
 git add .         # all files
-# OR
+or
 git add file.cpp  # specific file
 
 git commit -m "First commit"
